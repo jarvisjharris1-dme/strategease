@@ -35,7 +35,7 @@ export default function Header() {
         backdropFilter: 'blur(6px)',
       }}
     >
-      <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 78 }}>
+      <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 88 }}>
         <Link to="/" aria-label="StrategEASE home">
           <Logo variant="light" />
         </Link>

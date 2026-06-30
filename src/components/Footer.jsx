@@ -15,7 +15,7 @@ export default function Footer() {
           className="footer-grid"
         >
           <div>
-            <Logo variant="light" />
+            <Logo variant="light" height={42} />
             <p style={{ marginTop: 18, fontSize: 14, maxWidth: 280, color: 'var(--muted-on-ink)' }}>
               Turning Vision Into Measurable Outcomes.
             </p>
