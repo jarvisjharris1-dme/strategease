@@ -1,8 +1,8 @@
 const PHASES = [
   { n: '1', label: 'Discover', purpose: 'Understand the system. Explore the ecosystem, stakeholders, data, and priorities.', deliverable: 'Ecosystem Map', angle: -135 },
   { n: '2', label: 'Diagnose', purpose: 'Reveal what matters. Surface pain points, dependencies, capability gaps, and governance breakdowns.', deliverable: 'Insights and Opportunity Matrix', angle: -45 },
-  { n: '4', label: 'Execute', purpose: 'Drive execution. Activate priorities, set cadence, empower owners, deliver quick wins.', deliverable: 'Execution Plan and Quick Wins', angle: 45 },
-  { n: '5', label: 'Evolve', purpose: 'Sustain and improve. Measure impact, refine the system, build capability.', deliverable: 'Outcomes Dashboard and Continuous Improvement', angle: 135 },
+  { n: '3', label: 'Execute', purpose: 'Drive execution. Activate priorities, set cadence, empower owners, deliver quick wins.', deliverable: 'Execution Plan and Quick Wins', angle: 45 },
+  { n: '4', label: 'Evolve', purpose: 'Sustain and improve. Measure impact, refine the system, build capability.', deliverable: 'Outcomes Dashboard and Continuous Improvement', angle: 135 },
 ];
 
 export default function StrategEaseOS() {
