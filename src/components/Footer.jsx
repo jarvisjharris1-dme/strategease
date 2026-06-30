@@ -16,14 +16,11 @@ export default function Footer() {
         >
           <div>
             <Logo variant="light" height={42} />
-            <p style={{ marginTop: 18, fontSize: 14, maxWidth: 300, color: 'var(--muted-on-ink)' }}>
-              Turning Vision Into Measurable Outcomes.
+            <p style={{ marginTop: 18, fontSize: 14.5, lineHeight: 1.6, maxWidth: 300, color: 'var(--muted-on-ink)' }}>
+              Helping leaders SEE the system. ALIGN the organization. DELIVER measurable outcomes.
             </p>
-            <p style={{ marginTop: 16, fontSize: 12.5, lineHeight: 1.7, maxWidth: 300, color: 'var(--gold-bright)', fontStyle: 'italic' }}>
-              Founded by an Orlando Startup Weekend winner with a track record of helping teams thrive in ambiguity and deliver marketable, achievable outcomes.
-            </p>
-            <p style={{ marginTop: 16, fontSize: 12.5, color: 'var(--muted-on-ink)' }}>
-              Now accepting a limited number of executive briefing requests each quarter.
+            <p style={{ marginTop: 14, fontSize: 12.5, lineHeight: 1.7, maxWidth: 300, color: 'var(--muted-on-ink)', opacity: 0.8 }}>
+              Boutique strategy and execution firm serving government, nonprofit, healthcare, education, and mission-driven organizations.
             </p>
           </div>
 
@@ -59,7 +56,7 @@ export default function Footer() {
             <address style={{ fontStyle: 'normal', fontSize: 14, lineHeight: 1.8 }}>
               1910 Madison Avenue #2755<br />
               Memphis, TN 38104<br />
-              <a href="tel:8559339327">(855) 933-EASE</a><br />
+              <a href="tel:9012137765">901-213-7765 (PROJ)</a><br />
               <a href="mailto:info@strategeaseinc.com">info@strategeaseinc.com</a>
             </address>
           </div>

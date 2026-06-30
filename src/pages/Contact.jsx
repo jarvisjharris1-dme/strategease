@@ -81,7 +81,7 @@ export default function Contact() {
               </div>
               <div>
                 <p style={{ color: 'var(--gold-bright)', fontSize: 12.5, fontWeight: 600, letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 6 }}>Phone</p>
-                <a href="tel:8559339327" style={{ color: 'var(--muted-on-ink)' }}>(855) 933-EASE</a>
+                <a href="tel:9012137765" style={{ color: 'var(--muted-on-ink)' }}>901-213-7765 (PROJ)</a>
               </div>
               <div>
                 <p style={{ color: 'var(--gold-bright)', fontSize: 12.5, fontWeight: 600, letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 6 }}>Email</p>
