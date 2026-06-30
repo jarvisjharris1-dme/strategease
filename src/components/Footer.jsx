@@ -3,7 +3,7 @@ import Logo from './Logo';
 
 export default function Footer() {
   return (
-    <footer style={{ background: 'var(--ink)', color: 'var(--muted-on-ink)', paddingTop: 'var(--space-6)' }}>
+    <footer style={{ background: 'var(--ink)', color: 'var(--muted-on-ink)', paddingTop: 'var(--space-6)' }} className="site-footer">
       <div className="container">
         <div
           style={{
@@ -16,8 +16,14 @@ export default function Footer() {
         >
           <div>
             <Logo variant="light" height={42} />
-            <p style={{ marginTop: 18, fontSize: 14, maxWidth: 280, color: 'var(--muted-on-ink)' }}>
+            <p style={{ marginTop: 18, fontSize: 14, maxWidth: 300, color: 'var(--muted-on-ink)' }}>
               Turning Vision Into Measurable Outcomes.
+            </p>
+            <p style={{ marginTop: 16, fontSize: 12.5, lineHeight: 1.7, maxWidth: 300, color: 'var(--gold-bright)', fontStyle: 'italic' }}>
+              Founded by an Orlando Startup Weekend winner with a track record of helping teams thrive in ambiguity and deliver marketable, achievable outcomes.
+            </p>
+            <p style={{ marginTop: 16, fontSize: 12.5, color: 'var(--muted-on-ink)' }}>
+              Now accepting a limited number of executive briefing requests each quarter.
             </p>
           </div>
 
@@ -83,10 +89,11 @@ export default function Footer() {
 
       <style>{`
         @media (max-width: 800px) {
-          .footer-grid { grid-template-columns: 1fr 1fr !important; }
+          .footer-grid { grid-template-columns: 1fr 1fr !important; gap: 32px !important; }
         }
         @media (max-width: 500px) {
-          .footer-grid { grid-template-columns: 1fr !important; }
+          .footer-grid { grid-template-columns: 1fr !important; gap: 28px !important; }
+          .site-footer { padding-top: 48px !important; }
         }
         footer a:hover { color: var(--gold-bright); }
       `}</style>

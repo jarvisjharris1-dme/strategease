@@ -18,7 +18,7 @@ const LADDER = [
 export default function Services() {
   return (
     <>
-      <section className="section ink" style={{ paddingTop: 80, paddingBottom: 70 }}>
+      <section className="section ink page-hero">
         <div className="container" style={{ maxWidth: 760 }}>
           <p className="eyebrow" style={{ marginBottom: 18 }}>What We Do</p>
           <h1 style={{ color: 'var(--paper)', marginBottom: 22 }}>

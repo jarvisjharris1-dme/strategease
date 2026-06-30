@@ -24,7 +24,9 @@ npm run preview
 - **Signature visual**: a native SVG rebuild of the StrategEASE OS five-phase diagram (`src/components/StrategEaseOS.jsx`) — no dependency on the original PNG, fully responsive, with descriptive `aria-label` alt text.
 - **Proven Impact band**: the three dollar-figure results (`src/components/ProvenImpact.jsx`), reused on Home and the dedicated Proven Impact page.
 - **Signature Tools**: the five trademarked tools with proper `™` superscript markup (`src/components/SignatureTools.jsx`).
-- **Contact / Briefing form**: client-side validated, with a thank-you confirmation state (`src/pages/Contact.jsx`). You'll need to wire the `handleSubmit` function to a real email/CRM endpoint — currently it only validates and shows a confirmation locally.
+- **Contact / Briefing form**: client-side validated, with a thank-you confirmation state (`src/pages/Contact.jsx`). On submit, it currently opens the visitor's email client pre-addressed to `info@strategeaseinc.com` with the form data filled into the subject/body (a `mailto:` link) — this works without a backend, but is not the same as a real server-side form submission, and won't work for visitors without a configured email client. For a production-grade form (silent submission, no email client required, spam protection), wire `handleSubmit` to a service like Formspree, a serverless function, or your CRM's intake API.
+- **Founder section**: added to the homepage with the provided photo and bio (`src/assets/founder/nym.jpeg`).
+- **Case studies**: the Proven Impact page now uses a structured Challenge / StrategEASE Role / Outcome / Proof Points format (`src/components/CaseStudy.jsx`) instead of stat blocks alone; the quick-glance stat band still appears on the homepage.
 - **Design tokens**: all color/type/spacing values centralized in `src/index.css` as CSS custom properties.
 - **Copy**: pulled directly from the brief's paste-ready copy blocks (Sections 7–10).
 

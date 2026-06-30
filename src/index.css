@@ -78,7 +78,11 @@ p { color: inherit; }
 .section { padding: var(--space-6) 0; }
 
 @media (max-width: 768px) {
-  .section { padding: var(--space-5) 0; }
+  .section { padding: var(--space-4) 0; }
+}
+
+@media (max-width: 480px) {
+  .section { padding: 40px 0; }
 }
 
 .section.ink { background: var(--ink); color: var(--paper); }
@@ -111,6 +115,22 @@ p { color: inherit; }
 
 .hairline { height: 1px; background: var(--line-on-light); border: none; }
 .hairline.on-ink { background: var(--line-on-ink); }
+
+.hero-section { padding-top: 100px; padding-bottom: 100px; }
+@media (max-width: 768px) {
+  .hero-section { padding-top: 64px; padding-bottom: 56px; }
+}
+@media (max-width: 480px) {
+  .hero-section { padding-top: 48px; padding-bottom: 44px; }
+}
+
+.page-hero { padding-top: 80px; padding-bottom: 70px; }
+@media (max-width: 768px) {
+  .page-hero { padding-top: 56px; padding-bottom: 48px; }
+}
+@media (max-width: 480px) {
+  .page-hero { padding-top: 44px; padding-bottom: 38px; }
+}
 
 :focus-visible { outline: 2px solid var(--gold-bright); outline-offset: 3px; }
 

@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import StrategEaseOS from '../components/StrategEaseOS';
 import ProvenImpact from '../components/ProvenImpact';
 import CtaBand from '../components/CtaBand';
+import founderPhoto from '../assets/founder/nym.jpeg';
 
 const DIFFERENTIATORS = [
   {
@@ -21,21 +22,27 @@ const DIFFERENTIATORS = [
 export default function Home() {
   return (
     <>
-      <section className="section ink" style={{ paddingTop: 100, paddingBottom: 100 }}>
+      <section className="section ink hero-section">
         <div className="container">
           <div className="hero-grid" style={{ display: 'grid', gridTemplateColumns: '1.1fr 0.9fr', gap: 60, alignItems: 'center' }}>
             <div>
               <p className="eyebrow" style={{ marginBottom: 22 }}>SEE &middot; ALIGN &middot; DELIVER</p>
-              <h1 style={{ color: 'var(--paper)', marginBottom: 26 }}>
+              <h1 style={{ color: 'var(--paper)', marginBottom: 18 }}>
                 We build the operating systems that turn strategy into measurable outcomes.
               </h1>
-              <p style={{ color: 'var(--muted-on-ink)', fontSize: 18, maxWidth: 540, marginBottom: 38, lineHeight: 1.7 }}>
+              <p style={{ color: 'var(--gold-bright)', fontSize: 17, fontWeight: 600, marginBottom: 26, lineHeight: 1.5 }}>
+                Trusted to lead $20M+ in transformation initiatives across government, healthcare, education, and nonprofit organizations.
+              </p>
+              <p style={{ color: 'var(--muted-on-ink)', fontSize: 18, maxWidth: 540, marginBottom: 30, lineHeight: 1.7 }}>
                 StrategEASE is a boutique strategy and execution firm for government, nonprofit, education, and mission-driven organizations. We help leaders see the whole system, align the organization, and deliver results that hold up.
               </p>
-              <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap' }}>
+              <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap', marginBottom: 18 }}>
                 <Link to="/contact" className="btn btn-gold">Request an Executive Briefing</Link>
                 <a href="#how-we-work" className="btn btn-outline-ink">See How We Work</a>
               </div>
+              <p style={{ color: 'var(--muted-on-ink)', fontSize: 13.5, fontStyle: 'italic' }}>
+                Now accepting a limited number of executive briefing requests each quarter.
+              </p>
             </div>
 
             <div aria-hidden="true" style={{ position: 'relative' }}>
@@ -89,6 +96,47 @@ export default function Home() {
           </div>
         </div>
         <style>{`@media (max-width: 800px) { .diff-grid { grid-template-columns: 1fr !important; gap: 36px !important; } }`}</style>
+      </section>
+
+      <section className="section cream">
+        <div className="container">
+          <div className="founder-grid" style={{ display: 'grid', gridTemplateColumns: '280px 1fr', gap: 56, alignItems: 'center' }}>
+            <div
+              style={{
+                width: 220,
+                height: 220,
+                borderRadius: '50%',
+                overflow: 'hidden',
+                border: '2px solid var(--gold)',
+                margin: '0 auto',
+              }}
+            >
+              <img
+                src={founderPhoto}
+                alt="Nym, Founder of StrategEASE"
+                style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+              />
+            </div>
+            <div>
+              <p className="eyebrow on-light" style={{ marginBottom: 16 }}>Meet the Founder</p>
+              <h2 style={{ marginBottom: 6 }}>Nym</h2>
+              <p style={{ color: 'var(--gold)', fontWeight: 600, fontSize: 14.5, letterSpacing: '0.03em', marginBottom: 22, textTransform: 'uppercase' }}>
+                Founder, StrategEASE
+              </p>
+              <p style={{ fontSize: 16.5, lineHeight: 1.8, color: 'var(--ink)', marginBottom: 16 }}>
+                StrategEASE was founded by Nym, a strategy and execution leader known for helping organizations turn ambiguity into action. Her work sits at the intersection of enterprise strategy, innovation, AI adoption, governance, and measurable execution.
+              </p>
+              <p style={{ fontSize: 16.5, lineHeight: 1.8, color: 'var(--muted)' }}>
+                As the winner of Orlando Startup Weekend, Nym demonstrated her ability to help teams move quickly through uncertainty, clarify market opportunities, and focus on achievable outcomes. That same operating mindset now shapes how StrategEASE helps governments, nonprofits, healthcare, education, and mission-driven organizations build systems that deliver.
+              </p>
+            </div>
+          </div>
+        </div>
+        <style>{`
+          @media (max-width: 700px) {
+            .founder-grid { grid-template-columns: 1fr !important; text-align: center; }
+          }
+        `}</style>
       </section>
 
       <section id="how-we-work" className="section ink">

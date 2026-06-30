@@ -3,7 +3,7 @@ import CtaBand from '../components/CtaBand';
 export default function WhoWeAre() {
   return (
     <>
-      <section className="section ink" style={{ paddingTop: 80, paddingBottom: 70 }}>
+      <section className="section ink page-hero">
         <div className="container" style={{ maxWidth: 760 }}>
           <p className="eyebrow" style={{ marginBottom: 18 }}>Who We Are</p>
           <h1 style={{ color: 'var(--paper)' }}>
