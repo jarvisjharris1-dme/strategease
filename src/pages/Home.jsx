@@ -30,7 +30,7 @@ export default function Home() {
                 We build the operating systems that turn strategy into measurable outcomes.
               </h1>
               <p style={{ color: 'var(--gold-bright)', fontSize: 17, fontWeight: 600, marginBottom: 26, lineHeight: 1.5 }}>
-                Trusted to lead $18M+ in transformation initiatives across government, healthcare, education, and nonprofit organizations.
+                Trusted to lead $20M+ in transformation initiatives across government, healthcare, education, and nonprofit organizations.
               </p>
               <p style={{ color: 'var(--muted-on-ink)', fontSize: 18, maxWidth: 540, marginBottom: 30, lineHeight: 1.7 }}>
                 StrategEASE is a boutique strategy and execution firm for government, nonprofit, education, and mission-driven organizations. We help leaders see the whole system, align the organization, and deliver results that hold up.

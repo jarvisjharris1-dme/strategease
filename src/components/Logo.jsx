@@ -1,14 +1,9 @@
-import logoDark from '../assets/logo/logo-dark-bg.png';
-import logoLight from '../assets/logo/logo-light-bg.png';
+import logoSvg from '../assets/logo/strategease-primary-dark.svg';
 
-export default function Logo({ variant = 'light', height = 46 }) {
-  // variant 'light' = logo built for use on dark/ink backgrounds (paper-colored wordmark)
-  // variant 'dark'  = logo built for use on light/cream backgrounds (ink-colored wordmark)
-  const src = variant === 'light' ? logoDark : logoLight;
-
+export default function Logo({ height = 46 }) {
   return (
     <img
-      src={src}
+      src={logoSvg}
       alt="StrategEASE"
       style={{ height, width: 'auto', display: 'block' }}
     />

@@ -37,7 +37,7 @@ export default function Header() {
     >
       <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 88 }}>
         <Link to="/" aria-label="StrategEASE home">
-          <Logo variant="light" />
+          <Logo />
         </Link>
 
         <nav aria-label="Primary" className="desktop-nav" style={{ display: 'flex', alignItems: 'center', gap: 36 }}>

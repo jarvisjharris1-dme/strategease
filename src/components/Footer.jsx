@@ -15,9 +15,9 @@ export default function Footer() {
           className="footer-grid"
         >
           <div>
-            <Logo variant="light" height={42} />
+            <Logo height={42} />
             <p style={{ marginTop: 18, fontSize: 14.5, lineHeight: 1.6, maxWidth: 300, color: 'var(--muted-on-ink)' }}>
-              Helping leaders <span style={{ color: '#FFFFFF' }}>SEE</span> the system. <span style={{ color: '#FFFFFF' }}>ALIGN</span> the organization. <span style={{ color: '#FFFFFF' }}>DELIVER</span> the outcome.
+              Helping leaders SEE the system. ALIGN the organization. DELIVER measurable outcomes.
             </p>
             <p style={{ marginTop: 14, fontSize: 12.5, lineHeight: 1.7, maxWidth: 300, color: 'var(--muted-on-ink)', opacity: 0.8 }}>
               Boutique strategy and execution firm serving government, nonprofit, healthcare, education, and mission-driven organizations.
@@ -31,9 +31,9 @@ export default function Footer() {
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 12, fontSize: 14 }}>
               <li>Enterprise &amp; Innovation Strategy</li>
               <li>AI Strategy &amp; Adoption</li>
-              <li>Governance &amp; Portfolio Management</li>
-              <li>Operating Models &amp; Execution</li>
-  
+              <li>Portfolio &amp; Program Governance</li>
+              <li>Annual Operating Planning</li>
+              <li>Execution</li>
             </ul>
           </div>
 
@@ -56,7 +56,7 @@ export default function Footer() {
             <address style={{ fontStyle: 'normal', fontSize: 14, lineHeight: 1.8 }}>
               1910 Madison Avenue #2755<br />
               Memphis, TN 38104<br />
-              <a href="tel:9012137765">901-213-7765</a><br />
+              <a href="tel:9012137765">901-213-7765 (PROJ)</a><br />
               <a href="mailto:info@strategeaseinc.com">info@strategeaseinc.com</a>
             </address>
           </div>
