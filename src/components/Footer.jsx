@@ -31,7 +31,7 @@ export default function Footer() {
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 12, fontSize: 14 }}>
               <li>Enterprise &amp; Innovation Strategy</li>
               <li>AI Strategy &amp; Adoption</li>
-              <li>Governance &amp; Portfolio Management/li>
+              <li>Governance &amp; Portfolio Management</li>
               <li>Operating Models &amp; Execution</li>
        
             </ul>
